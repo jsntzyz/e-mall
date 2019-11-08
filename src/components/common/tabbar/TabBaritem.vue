@@ -33,8 +33,8 @@ export default {
   },
   methods: {
     itemClick() {
-      this.$router.replace(this.path);
-      console.log("itemClick");
+      this.$router.replace({path:this.path});
+      // console.log("itemClick");
     }
   }
 };

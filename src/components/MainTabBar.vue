@@ -1,22 +1,23 @@
 <template>
   <div id="app">
+    <router-view />
     <TabBar>
-      <TabBaritem path="/home">
+      <TabBaritem path='/home'>
         <img slot="item-icon" src="../assets/img/tab-bar/shouye.png" alt />
         <img slot="item-icon-active" src="../assets/img/tab-bar/shouye2.png" alt />
         <div slot="item-text">首页</div>
       </TabBaritem>
-      <TabBaritem path="/About">
+      <TabBaritem path="/Classify">
         <img slot="item-icon" src="../assets/img/tab-bar/category.png" alt />
         <img slot="item-icon-active" src="../assets/img/tab-bar/category2.png" alt />
         <div slot="item-text">分类</div>
       </TabBaritem>
-      <TabBaritem path="/profile">
+      <TabBaritem path="/ShoppingTrolley">
         <img slot="item-icon" src="../assets/img/tab-bar/cart- full.png" alt />
         <img slot="item-icon-active" src="../assets/img/tab-bar/cart- full2.png" alt />
         <div slot="item-text">购物车</div>
       </TabBaritem>
-      <TabBaritem path="/User/:userId">
+      <TabBaritem path="/User">
         <img slot="item-icon" src="../assets/img/tab-bar/bussiness-man.png" alt />
         <img slot="item-icon-active" src="../assets/img/tab-bar/bussiness-man2.png" alt />
         <div slot="item-text">我的</div>

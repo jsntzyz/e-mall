@@ -2,7 +2,7 @@
   <div id="app">
 
     <router-view></router-view>
-    <MainTabBar/>
+    <!-- <MainTabBar/> -->
     <!-- tag="" 可以指定渲染成什么标签  不加默认a标签-->
     <!-- repalce 不会留下history记录，后退键不会返回上一个界面-->
     <!-- url ：协议：//主机:端口/路径？查询（query）
@@ -21,13 +21,6 @@ export default {
   components: {
      MainTabBar
   }
-  // data() {
-  //   return {
-  //     userId: "张三",
-  //     imgURL: "https://www.baidu.com/log.png"
-  //   };
-  // },
-  // methods: {}
 };
 </script>
 
